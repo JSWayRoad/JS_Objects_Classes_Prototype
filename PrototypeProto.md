@@ -78,6 +78,11 @@ Here’s what’s going on:
 ![Screenshot_29](https://user-images.githubusercontent.com/66359081/161501153-91eb8607-d8ab-4b3a-9bb0-f526dc9a45b6.png)
 ![Screenshot_30](https://user-images.githubusercontent.com/66359081/161501414-1fb19908-0a4d-4d8a-9ecc-5e59f9e1a2a7.png)
 
+# Prototype methods, objects without __proto__
+![Screenshot_31](https://user-images.githubusercontent.com/66359081/161508417-d9240b6c-f42a-42eb-b68c-52b8a3da564a.png)
+
+
+
 
 
 
