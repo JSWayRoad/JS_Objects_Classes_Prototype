@@ -235,6 +235,10 @@ https://developer.mozilla.org/ru/docs/Web/JavaScript/Inheritance_and_the_prototy
 При попытке получить доступ к какому-либо свойству объекта, свойство вначале ищется в самом объекте, затем в прототипе объекта, после чего в прототипе прототипа, и так далее. Поиск ведётся до тех пор, пока не найдено свойство с совпадающим именем или не достигнут конец цепочки прототипов.  
 https://learn.javascript.ru/native-prototypes  
 
-
-
 # Symbol type
+
+A “symbol” represents a unique identifier.  
+A value of this type can be created using Symbol()  
+Symbols allow us to create “hidden” properties of an object, that no other part of code can accidentally access or overwrite.
+![Screenshot_36](https://user-images.githubusercontent.com/66359081/161520200-c21644f8-53bb-4ec2-8539-06a8f04894a6.png)
+
