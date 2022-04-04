@@ -81,6 +81,9 @@ Here’s what’s going on:
 # Prototype methods, objects without __proto__
 ![Screenshot_31](https://user-images.githubusercontent.com/66359081/161508417-d9240b6c-f42a-42eb-b68c-52b8a3da564a.png)
 
+**prototype?**  
+
+prototype является свойством объекта Name. Это прототип объектов, построенных этой функцией.  
 
 
 
