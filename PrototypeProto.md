@@ -70,6 +70,15 @@ https://javascript.info/function-prototype
 
 https://javascript.info/native-prototypes
 
+Short notation obj = {} is the same as obj = new Object(), where Object is a built-in object constructor function,  
+with its own prototype referencing a huge object with toString and other methods.
+
+Here’s what’s going on:
+![Screenshot_28](https://user-images.githubusercontent.com/66359081/161501015-0765615e-c006-4cde-8272-e309a5e932e1.png)
+![Screenshot_29](https://user-images.githubusercontent.com/66359081/161501153-91eb8607-d8ab-4b3a-9bb0-f526dc9a45b6.png)
+![Screenshot_30](https://user-images.githubusercontent.com/66359081/161501414-1fb19908-0a4d-4d8a-9ecc-5e59f9e1a2a7.png)
+
+
 
 
 
