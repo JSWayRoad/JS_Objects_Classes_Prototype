@@ -252,3 +252,5 @@ A value of this type can be created using Symbol()
 Symbols allow us to create “hidden” properties of an object, that no other part of code can accidentally access or overwrite.
 ![Screenshot_36](https://user-images.githubusercontent.com/66359081/161520200-c21644f8-53bb-4ec2-8539-06a8f04894a6.png)
 
+call единожды привязывает контекст а  apply на постоятнной основе.
+
