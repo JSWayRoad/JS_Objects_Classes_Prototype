@@ -12,6 +12,9 @@ https://learn.javascript.ru/object-basics
 
 **4 основных столпа: наследование, инкапсуляция, полиморфизм и абстракция.**
 
+**OOP**
+https://frontend-stuff.com/blog/object-oriented-programming/
+
 **Наследование** - позволяет классу наследовать  классом поведение  других классов.
 
 ```
