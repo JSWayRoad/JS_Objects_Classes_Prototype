@@ -16,6 +16,11 @@ https://learn.javascript.ru/object-basics
 **Класс** - шаблон для создания объектов, описывающие тот набор свойств, которыми будет обладать объект.  
 **Объект** - уже конкретный экземпляр данного класса, с конкретными значениями данных свойств
 
+## Global object(window)
+
+The global object provides variables and functions that are available anywhere.  
+By default, those that are built into the language or the environment.
+
 **4 основных столпа: наследование, инкапсуляция, полиморфизм и абстракция.**
 
 **OOP**
