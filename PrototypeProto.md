@@ -3,6 +3,38 @@ https://github.com/radomir-radionov/closures_and_objects#9
 
 **the prototype chain** - последовательная связь между объектами.
 
+## Прототипы
+
+В JavaScript объекты имеют специальное скрытое свойство [[Prototype]], которое либо равно null, либо ссылается на другой объект.  
+Этот объект называется прототипом:
+
+![Screenshot_5](https://user-images.githubusercontent.com/66359081/178571093-5639ac23-129b-403b-a17d-2bb11b246e8d.png)
+
+Если вы планируете взять отсутствующее свойство из Object, но оно отсутствует, JavaScript автоматически возьмёт это свойство из прототипа.  
+Это прототипное наследование.  
+
+Свойство [[Prototype]] является внутренним и скрытым, но есть много способов задать его.  
+Одним из способов задать скрытое свойство [[Prototype]] является использование __proto__:
+
+````
+let animal = {
+  eats: true
+};
+let rabbit = {
+  jumps: true
+};
+
+rabbit.__proto__ = animal;
+
+//Теперь мы можем найти оба свойства в rabbit:
+alert(rabbit.eats); //true
+alert(rabbit.jumps); //true
+````
+
+## Наследование
+
+В плане наследования JavaScript работает лишь с одной сущностью: объектами. Каждый объект имеет внутреннюю ссылку на другой объект, называемый его прототипом. У объекта-прототипа также есть свой собственный прототип и так далее до тех пор, пока цепочка не завершится объектом, у которого свойство [[Prototype]] равно null.
+
 # [[Prototype]]
 
  JavaScript, objects have a special hidden property [[Prototype]] (as named in the specification),  
