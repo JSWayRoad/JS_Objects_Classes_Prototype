@@ -1,9 +1,11 @@
 ## Сборка мусора 
 
-https://learn.javascript.ru/garbage-collection
+[https://learn.javascript.ru/garbage-collection](https://javascript.info/garbage-collection)
+
+Memory management in JavaScript is performed automatically and invisibly to us. We create primitives, objects, functions… All that takes memory.
 
 **Достижимость**
-Основной концепцией управления памятью в JavaScript является **принцип достижимости**.
+The main concept of memory management in JavaScript is **reachability**.
 
 Если упростить, то «достижимые» значения – это те, которые доступны или используются. Они гарантированно находятся в памяти.
 
