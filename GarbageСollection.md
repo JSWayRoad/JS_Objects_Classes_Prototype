@@ -1,6 +1,5 @@
 ## Сборка мусора 
 
-https://github.com/radomir-radionov/closures_and_objects  
 https://learn.javascript.ru/garbage-collection
 
 **Достижимость**
